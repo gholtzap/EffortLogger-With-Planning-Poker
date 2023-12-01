@@ -83,7 +83,7 @@ public class AWSBackup extends Application {
                 .withRegion(Regions.YOUR_REGION) // Choose the appropriate region
                 .build();
 
-        // Define the bucket name and file to upload
+        // Defining the bucket name and the file to upload
         String bucketName = BUCKET_NAME;
         String fileObjKeyName = OBJECT_NAME;
         String fileName = FILE_PATH;
