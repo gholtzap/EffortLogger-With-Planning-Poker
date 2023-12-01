@@ -38,7 +38,7 @@ public class AWSBackup extends Application {
         AnchorPane.setTopAnchor(instructionLabel, 115.0);
         AnchorPane.setLeftAnchor(instructionLabel, 185.0);
 
-        // label label to show backup status
+        // label to show backup status
         backupStatusLabel = new Label();
         backupStatusLabel.setFont(Font.font("System Bold", 13.0));
         AnchorPane.setTopAnchor(backupStatusLabel, 220.0);
