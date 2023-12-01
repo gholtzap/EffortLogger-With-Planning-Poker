@@ -42,7 +42,7 @@ To get started, follow these steps:
     'C:\Program Files\Java\jdk1.8.0_311\bin\java.exe' '-cp' 'C:\Users\$YOUR$NAME\AppData\Local\Temp\cp_f0zi1x4w4ps1m9f8j8hog6o1l.jar' 'com.cse360.Main'
     ```
 
-Visit `http://localhost:3000` in your browser to access the Effort Logger V2 with Planning Poker.
+Sign Up as a new user, and proceed!:)
 
 ## Usage
 
