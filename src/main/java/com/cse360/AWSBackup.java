@@ -27,7 +27,7 @@ public class AWSBackup extends Application {
 
         AnchorPane root = new AnchorPane();
 
-        // Create labels
+        // Creating the labels
         Label titleLabel = new Label("Backup Center");
         titleLabel.setFont(Font.font("Bold", 20.0));
         AnchorPane.setTopAnchor(titleLabel, 20.0);
