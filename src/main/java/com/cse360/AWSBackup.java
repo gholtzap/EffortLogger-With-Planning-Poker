@@ -77,7 +77,7 @@ public class AWSBackup extends Application {
         // Hardcoded AWS credentials (not recommended for production)
         BasicAWSCredentials awsCreds = new BasicAWSCredentials(AWS_ACCESS_KEY, AWS_SECRET_KEY);
 
-        // Create an S3 client
+        // Creating an S3 client
         AmazonS3 s3Client = AmazonS3ClientBuilder.standard()
                 .withCredentials(new AWSStaticCredentialsProvider(awsCreds))
                 .withRegion(Regions.YOUR_REGION) // Choose the appropriate region
@@ -89,7 +89,7 @@ public class AWSBackup extends Application {
         String fileName = FILE_PATH;
 
         try {
-            // Upload the file to S3
+            // Uploading the file to S3
             s3Client.putObject(new PutObjectRequest(bucketName, fileObjKeyName, new File(fileName)));
             System.out.println("Data backup created successfully.");
         } catch (Exception e) {
