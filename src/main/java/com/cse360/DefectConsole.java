@@ -157,6 +157,7 @@ public class DefectConsole extends Application{
         projectComboBox.getSelectionModel().select("Development Project");
         defectComboBox.getSelectionModel().select("--no defect selected--");
 
+        // Adds a listener to the project combo box which gives the user all of the current information
         projectComboBox.valueProperty().addListener((observable, oldValue, newValue) -> { 
 
             if (newValue != null) {
