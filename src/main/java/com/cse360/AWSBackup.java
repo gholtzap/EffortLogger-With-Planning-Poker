@@ -51,7 +51,7 @@ public class AWSBackup extends Application {
         AnchorPane.setTopAnchor(backupButton, 140.0);
         AnchorPane.setLeftAnchor(backupButton, 200.0);
 
-        // Add components to the AnchorPane
+        // Adding components to the AnchorPane
         root.getChildren().addAll(titleLabel, instructionLabel, backupButton, backupStatusLabel);
 
         Scene scene = new Scene(root, 500, 300);
