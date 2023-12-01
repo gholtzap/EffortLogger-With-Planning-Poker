@@ -32,9 +32,11 @@ public class EffortLogDisplay extends Application {
         grid.setHgap(10);
         grid.setVgap(10);
         grid.setPadding(new Insets(25, 25, 25, 25));
-        
+
+        // Creates the table
         TableView table = new TableView<TableInformation>();
 
+        // Creates the columns for the table
         TableColumn<TableInformation, String> projectColumn = new TableColumn<TableInformation, String>("Project");
         projectColumn.setCellValueFactory(new PropertyValueFactory<TableInformation, String>("Project"));
 
@@ -50,6 +52,7 @@ public class EffortLogDisplay extends Application {
         TableColumn<TableInformation, String> planColumn = new TableColumn<TableInformation, String>("Plan");
         planColumn.setCellValueFactory(new PropertyValueFactory<TableInformation, String>("Plan"));
 
+        // Checks for the if the columns already exist
         if (!table.getColumns().contains(projectColumn)) {
             table.getColumns().add(projectColumn);
         }
