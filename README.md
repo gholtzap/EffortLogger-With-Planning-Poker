@@ -101,8 +101,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Feel free to customize this README file according to your project's specific details and requirements.
 
 ## Contributors:
-# Caiden McGregor
-# Chaitanya Chaurasia
-# Gavin Holtzapple
-# Harish Chaurasia
-# Neel Madhav Dogra
+### Caiden McGregor
+### Chaitanya Chaurasia
+### Gavin Holtzapple
+### Harish Chaurasia
+### Neel Madhav Dogra
