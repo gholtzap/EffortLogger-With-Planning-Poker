@@ -2,7 +2,7 @@
 
 ## Overview
 
-Effort Logger V2 with Planning Poker is a project aimed at facilitating project estimation and planning using the Planning Poker technique. This tool allows teams to collaboratively estimate the effort required for tasks in a project, fostering communication and improving accuracy in time estimation.
+Effort Logger V2 with Planning Poker is a project aimed at facilitating project estimation and planning using the Planning Poker technique. This tool allows teams to collaboratively estimate the effort required for tasks in a project, fostering communication and improving accuracy in time estimation. The Planning Poker technique, well-known in agile methodologies, involves team members providing individual estimates for specific tasks, followed by open discussions to converge on a consensus estimate. Effort Logger V2 enhances this technique by providing a dedicated platform for teams to engage in this estimation process seamlessly.
 
 ## Features
 
