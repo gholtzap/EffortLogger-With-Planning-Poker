@@ -53,12 +53,14 @@ public class EffortLogEditor extends Application {
         consoleTitle.setFont(Font.font("Arial", 20));
         grid.add(consoleTitle, 1, 0, 2, 1);
 
+        // Creates the buttons on the console
         Button Button0 = createButton("Clear This Effort Log");
         Button Button1 = createButton("Update This Entry");
         Button Button2 = createButton("Delete This Entry");
         Button Button3 = createButton("Split This Entry into Two Entries");
         Button Button4 = createButton("Proceed to the Effort Log Console");
 
+        //Instructions for the user
         Text projectText = new Text("1. Select the Project in order to edit its Effort Log.");
         projectText.setFont(Font.font("Ariel", 15));
         grid.add(projectText, 0, 5, 2, 1);
@@ -103,6 +105,7 @@ public class EffortLogEditor extends Application {
         timeElaspedText.setFont(Font.font("Ariel", 15));
         grid.add(timeElaspedText, 0, 23, 2, 1);
 
+        // Creates the combo-boxes
         final ComboBox<String> projectComboBox = new ComboBox<String>();
         projectComboBox.getItems().addAll("Business Project", "Development Project");
 
@@ -161,6 +164,7 @@ public class EffortLogEditor extends Application {
 
         grid.add(Button4, 5, 45, 2, 1);
 
+        // Adds a listener to the project combo-box
         projectComboBox.valueProperty().addListener((observable, oldValue, newValue) -> { 
 
             if (newValue != null) {
@@ -240,6 +244,7 @@ public class EffortLogEditor extends Application {
             }
         });
 
+        // Adds a listener to the category combo-box
         categoryBox.valueProperty().addListener((observable, oldValue, newValue) -> {
             if (newValue != null) {
 
