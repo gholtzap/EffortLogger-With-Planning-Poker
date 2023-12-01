@@ -75,19 +75,18 @@ public class AWSBackup extends Application {
     // Example method for AWS S3 backup logic
     private void uploadFilesToS3Bucket() {
         // Hardcoded AWS credentials (not recommended for production)
-        BasicAWSCredentials awsCreds = new BasicAWSCredentials("AKIA4E4YW6AGCZKTESZE",
-                "GZC1yicAHDOOyjkDm9CiH4sLDQ5oO2pgGP6BFfU3");
+        BasicAWSCredentials awsCreds = new BasicAWSCredentials(AWS_ACCESS_KEY, AWS_SECRET_KEY);
 
         // Create an S3 client
         AmazonS3 s3Client = AmazonS3ClientBuilder.standard()
                 .withCredentials(new AWSStaticCredentialsProvider(awsCreds))
-                .withRegion(Regions.US_EAST_1) // Choose the appropriate region
+                .withRegion(Regions.YOUR_REGION) // Choose the appropriate region
                 .build();
 
         // Define the bucket name and file to upload
-        String bucketName = "effortloggerbackup";
-        String fileObjKeyName = "user01";
-        String fileName = "C:/Users/chait/Desktop/planningpoker/src/main/java/com/cse360/Project Information.xlsx";
+        String bucketName = BUCKET_NAME;
+        String fileObjKeyName = OBJECT_NAME;
+        String fileName = FILE_PATH;
 
         try {
             // Upload the file to S3
