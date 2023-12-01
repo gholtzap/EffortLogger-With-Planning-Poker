@@ -1,3 +1,4 @@
+//Allows editing already submitted logs
 package com.cse360;
 
 import java.io.File;
