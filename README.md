@@ -21,25 +21,25 @@ To get started, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/effort-logger-v2.git
+    git clone https://github.com/your-username/EffortLogger-With-Planning-Poker.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd effort-logger-v2
+    cd EffortLogger
     ```
 
-3. Install dependencies:
+3. Check Maven version, and if not installed - install a stable release, then go to Visual Studio and run:
 
     ```bash
-    npm install
+    mvn -v
     ```
 
 4. Start the application:
 
     ```bash
-    npm start
+    'C:\Program Files\Java\jdk1.8.0_311\bin\java.exe' '-cp' 'C:\Users\$YOUR$NAME\AppData\Local\Temp\cp_f0zi1x4w4ps1m9f8j8hog6o1l.jar' 'com.cse360.Main'
     ```
 
 Visit `http://localhost:3000` in your browser to access the Effort Logger V2 with Planning Poker.
