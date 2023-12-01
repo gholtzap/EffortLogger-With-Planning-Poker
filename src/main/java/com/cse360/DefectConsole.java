@@ -10,7 +10,6 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
-// ewrwerwerwer
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -446,6 +445,7 @@ public class DefectConsole extends Application{
     }
 
 
+    // Function for creating beutiful buttons
     private static Button createButton(String text) {
         Button button = new Button(text);
         button.setMinSize(200, 40);
