@@ -35,12 +35,15 @@ To get started, follow these steps:
     ```bash
     mvn -v
     ```
+4. Make sure you put in your AWS Credentials (AWS_ACCESS_KEY & AWS_SECRET_KEY) inside AWSBackup.java:
 
-4. Start the application:
+
+5. Start the application:
 
     ```bash
     'C:\Program Files\Java\jdk1.8.0_311\bin\java.exe' '-cp' 'C:\Users\$YOUR$NAME\AppData\Local\Temp\cp_f0zi1x4w4ps1m9f8j8hog6o1l.jar' 'com.cse360.Main'
     ```
+    
 
 Sign Up as a new user, and proceed!:)
 
@@ -96,3 +99,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Thanks to the Planning Poker technique for providing an effective way to estimate project efforts.
 
 Feel free to customize this README file according to your project's specific details and requirements.
+
+## Contributors:
+# Caiden McGregor
+# Chaitanya Chaurasia
+# Gavin Holtzapple
+# Harish Chaurasia
+# Neel Madhav Dogra
